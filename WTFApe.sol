@@ -5,7 +5,7 @@ pragma solidity ^0.8.4;
 import "./ERC721.sol";
 
 contract WTFApe is ERC721{
-    uint public MAX_APES = 10000; // 总量
+    uint public MAX_APES = 100000; // 总量
 
     // 构造函数
     constructor(string memory name_, string memory symbol_) ERC721(name_, symbol_){
